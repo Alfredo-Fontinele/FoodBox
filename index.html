@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#050505">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://thumbs.dreamstime.com/b/alimento-com-s%C3%ADmbolo-logo-design-da-colher-e-forquilha-121549456.jpg">
+    <title>App FoodBox | Razy Igarashi</title>
+</head>
+<body>
+
+    <audio src="Piece Of Your Heart.mp3" autoplay loop ></audio>
+  
+    <div class="topo">
+        <h1>FoodBox</h1><br>
+        <h2>Monte seu Box e receba em 15 minutos!</h2>
+    </div>
+
+    <h3>Primeiro, escolha seu prato</h3>
+    
+    <div id="frango" class="produto" onclick="Frango()">
+        <img src="imgs/FRANGO.jpg" alt="imagem Peito de Frango">
+        <h4>Frango Assado</h4>
+        <p>Um pouco de batata frita, um pouco de salada</p>
+        <p><strong>R$ 19,90</strong></p>
+    </div>
+
+    <div id="carne" class="produto" onclick="Carne()">
+        <img src="imgs/CARNE.jpg" alt="Carne e Salada">
+        <h4>Carne e Salada</h4>
+        <p>Com batata frita, um pouco de salada, farofa</p>
+        <p><strong>R$ 24,90</strong></p>
+    </div>
+
+    <div id="peixe" class="produto" onclick="Peixe()">
+        <img src="imgs/PEIXE_FRITO.jpg" alt="Peixe Frito">
+        <h4>Peixe Frito</h4>
+        <p>Com batata frita, um pouco de salada, farofa</p>
+        <p><strong>R$ 20,00</strong></p>
+    </div>    
+
+    <h3>Agora, sua bebida</h3>
+
+    <div id="refrigerante" class="produto" onclick="Refrigerante()">
+        <img src="imgs/REFRIGERANTE.jpg" alt="Refrigerante">
+        <h4>Refrigerante</h4>
+        <p>Normal, zero ou stevia</p>
+        <p><strong>R$ 5,90</strong></p>
+    </div>    
+
+    <div id="refresco" class="produto" onclick="Refresco()">
+        <img src="imgs/REFRESCO.jpg" alt="Refresco">
+        <h4>Refresco</h4>
+        <p>Podia ser suco, mas leva água</p>
+        <p><strong>R$ 3,90</strong></p>
+    </div>
+
+    <h3>Por fim, sua sobremesa</h3>
+
+    <div id="pudim" class="produto" onclick="Pudim()">
+        <img src="imgs/PUDIM.jpg" alt="Pudim">
+        <h4>Pudim</h4>
+        <p>Apenas um lindo e brilhante pudim!!</p>
+        <p><strong>R$ 5,90</strong></p>
+    </div>    
+
+    <div id="sorvete" class="produto" onclick="Sorvete()">
+        <img src="imgs/SORVETE.jpg" alt="Sorvete">
+        <h4>Sorvete</h4>
+        <p>Aromático e Refrescante!!</p>
+        <p><strong>R$ 5,00</strong></p>
+    </div>
+
+    <div class="botao" onclick="finalizarPedido()">
+        <p>Finalizar Pedido</p>
+    </div>
+
+    <script src="script.js"></script>
+  
+</body>
+</html>
